@@ -1,0 +1,25 @@
+{
+  "name": "duplicate-killer",
+  "version": "1.0.0",
+  "description": "A node.js version of the duplicate-killer app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node app.ts"
+  },
+  "keywords": [
+    "node",
+    "file-system",
+    "console"
+  ],
+  "author": "Guilherme Bayerl",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
